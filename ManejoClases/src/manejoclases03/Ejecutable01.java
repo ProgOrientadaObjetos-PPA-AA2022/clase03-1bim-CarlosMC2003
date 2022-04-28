@@ -32,5 +32,13 @@ public class Ejecutable01 {
         System.out.printf("%s - %d - %.2f\n", hospital.obtenerNombre(),
                 hospital.obtenerNumeroCamas(), hospital.obtenerPresupuesto());
         
+        Hospital hospital2 = new Hospital();
+        hospital2.establecerNombre("Hospital UTPL");
+        hospital2.establecerNumeroCamas(20);
+        hospital2.establecerPresupuesto(5603.43);
+        
+        System.out.printf("%s - %d - %.2f\n", hospital2.obtenerNombre(),
+                hospital2.obtenerNumeroCamas(), hospital2.obtenerPresupuesto());
+                
     }
 }
